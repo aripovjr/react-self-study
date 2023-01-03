@@ -5,12 +5,10 @@
 }
 .expense-item{
     background-color: rgb(61, 60, 60);
-    border-radius: 10px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    margin: 30px 5px;
-    box-shadow: 0px 0px 18px 8px rgba(66, 68, 90, 1);
+    margin: 30px auto;
 }
 .expense-item-date{
     color: #fff;
@@ -32,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
     color: #fff;
 }
 
