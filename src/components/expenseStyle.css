@@ -1,90 +1,100 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.expense-item{
-    background-color: rgb(61, 60, 60);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
+.expense-item {
+  background-color: rgb(61, 60, 60);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
 }
-.expense-item-date{
-    color: #fff;
-    font-size: 25px;
-    margin: auto auto;
-    border: 2px solid #fff;
-    padding: 5px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    background-color: rgb(32, 32, 32);
+.expense-item-date {
+  color: #fff;
+  font-size: 25px;
+  margin: auto auto;
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(32, 32, 32);
 }
-.day{
-    font-size: 40px;
+.day {
+  font-size: 40px;
 }
-.expense-item-description{
-    padding-left: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    color: #fff;
+.expense-item-description {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
 }
 
-.expense-item-price{
-    border: 2px solid #fff;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(84, 24, 139);
-    font-size: 35px;
+.expense-item-price {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(84, 24, 139);
+  font-size: 35px;
 }
 
 /*form*/
+form {
+  width: 100%;
+}
+.flex-center,
+.new-expense {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-expense {
+  margin: 60px auto 30px;
+  padding: 20px;
+  width: 90%;
+  background-color: rgb(171, 118, 222);
+  box-shadow: 0px 0px 18px 8px rgb(28 28 29);
+  border-radius: 10px;
+}
+.new-expense-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new-expense-control {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  padding: 5px;
+}
+.new-expense-control label {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: bold;
+}
+.new-expense-control input {
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  outline: none;
+  font-size: 17px;
+  margin: 7px 0 0;
+}
 
-.new-expense{
-    margin: 60px auto 30px;
-    padding: 20px;
-    width: 90%;
-    background-color: rgb(171, 118, 222);
-    box-shadow: 0px 0px 18px 8px rgb(28 28 29);
-    border-radius: 10px;
+.new-expense-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 20px 0 0 auto;
 }
-.new-expense-controls{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.new-expense-control{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding: 5px;
-}
-.new-expense-control label{
-    text-transform: capitalize;
-    font-size: 22px;
-    font-weight: bold;
-}
-.new-expense-control input{
-    border: none;
-    border-radius: 10px;
-    padding: 7px;
-    outline: none;
-    font-size: 17px;
-    margin: 7px 0 0;
-}
-
-.new-expense-actions{
-    display: flex;
-    justify-content: flex-end;
-}
-.new-expense-actions button{
-    padding: 20px;
-    font-weight: bold;
-    font-size: 17px;
-    border: none;
-    border-radius: 10px;
+.new-expense-actions .button {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
 }
